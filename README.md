@@ -2,7 +2,7 @@
 
 ## Welcome to a PowerShell thought experiment...
 
-<img src="/docs/itpss.diagram.svg" alt="Inverted Triangle PowerShell diagram: Models, Settings, Utilities, Actions, Events, Properties, Components, Layouts" />
+<img src="/docs/itpss.diagram.png" alt="Inverted Triangle PowerShell diagram: Models, Settings, Utilities, Actions, Events, Properties, Components, Layouts" />
 
 ### Inverted Triangle PowerShell (ITPSS) is a flexible module organizational pattern that loads *.ps1 files in order of specificity and promotes code reuse. Each layer is loaded in order and has dependencies only on preceding layers. 
 
