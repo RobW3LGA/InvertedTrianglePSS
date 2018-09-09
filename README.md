@@ -23,7 +23,7 @@
   - Settings example file name: system.setting.ps1
   - etc.
 
-### This proposed organizational pattern is inspired by Harry Roberts' Inverted Triangle CSS and made possible by Mike Shepard's WPFBot3000.
+### This proposed organizational pattern is inspired by Harry Roberts' Inverted Triangle CSS and made possible by Mike Shepard's WPFBot3000
 
 ## Installation
 
