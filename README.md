@@ -28,7 +28,7 @@
 ## Installation
 
 ### PowerShell version check (minimum):
-```
+```PowerShell
 PS \> $PSVersionTable.PSVersion
 
 Major  Minor  Build  Revision
@@ -37,39 +37,39 @@ Major  Minor  Build  Revision
 ```
 
 ### Install From PowerShell (Admin):
-```
+```PowerShell
 PS \> Install-Module -Name InvertedTrianglePSS.Scaffold -Force
 ```
 
 ### Emitted project scaffolds (and examples below) require WPFBot3000 to run:
-```
+```PowerShell
 PS \> Install-Module -Name WPFBot3000 -Force
 ```
 
 ## Examples
 ### Example One:
-```
+```PowerShell
 PS \> New-InvertedTrianglePSS
 ```
 
 This command (without parameters) generates the base ITPSS demonstration. Running ITPSSDemo.ps1 starts a WPF window
 
 ### Example Two:
-```
+```PowerShell
 PS \> New-InvertedTrianglePSS -Project Demo.One
 ```
 
 This command generates the ITPSS scaffold with the specified project name. Running the root *.ps1 script starts a WPF window
 
 ### Example Three:
-```
+```PowerShell
 PS \> New-InvertedTrianglePSS -Component demo.two
 ```
 
-This command, when run inside an ITPSS scaffold, generates a component and supporting files with the specified component name. The component var needs to be placed into a layout to be visible. A dot in the supplied name will convert to camelcasing inside the component files (e.g camel.case -> camelCase)
+This command, when run inside an ITPSS scaffold, generates a component and supporting files with the specified component name. The component var needs to be placed into a layout to be visible. A dot in the supplied name will convert to camelcasing inside the component files (e.g. camel.case -> camelCase)
 
 ### Example Four:
-```
+```PowerShell
 PS \> New-InvertedTrianglePSS -Project Demo.One -Component demo.two
 ```
 
