@@ -46,6 +46,8 @@ PS \> Install-Module -Name InvertedTrianglePSS.Scaffold -Force
 PS \> Install-Module -Name WPFBot3000 -Force
 ```
 
+### [Visit InvertedTrianglePSS at the PowerShell Gallery][installation]
+
 ## Examples
 ### Example One:
 ```PowerShell
@@ -80,3 +82,4 @@ This command generates the ITPSS scaffold with the specified project name and th
 ### [WPFBot3000 on GitHub][github-wpfbot]
 
 [github-wpfbot]: https://github.com/MikeShepard/WPFBot3000
+[installation]: https://www.powershellgallery.com/packages/InvertedTrianglePSS.Scaffold
